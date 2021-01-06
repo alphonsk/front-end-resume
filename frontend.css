@@ -1,0 +1,212 @@
+
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+    --clr-primary-1: hsl(205, 86%, 17%);
+    --section-spacing: 10px 0;
+}
+
+
+
+/* 
+===============
+global
+===============
+*/
+
+
+*{
+    box-sizing: borders-box;
+}
+
+
+body { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: borders-box;  
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ 
+.frontend-main {
+    max-width: 1000px;
+    
+    padding: 20px 30px 80px 30px;
+    border: solid 1px #26bdeb;
+}
+
+
+
+/* 
+===============
+Header 
+=============== 
+*/
+
+.main {
+    width: 100%; 
+}
+
+.img {
+    width: 130px;
+    height: 130px; 
+    border-radius: 50%;
+    display: inline-block; 
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    height: 100%; 
+}
+ 
+.name-addy {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+
+.name-addy .left-icons {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    padding: 0 5px;
+    vertical-align: top; 
+}
+.name-addy .right-icons  {
+    display: inline-block;
+    min-width: 300px;
+    text-align: left;
+    padding: 0 5px;
+    vertical-align: top; 
+    line-height: 1.4em;
+}
+
+.left-icons .fa { 
+    display: block;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 30px;
+    color: #26bdeb; 
+}
+
+.phone-addy {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1em;
+}
+
+.phone-addy .fa {
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.fa {
+    color: #26bdeb;
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+ 
+
+
+/* 
+===============
+projects
+===============
+*/
+
+.protects {
+    /* border: solid 1px red; */
+}
+
+
+
+
+
+/* 
+===============
+Body 
+===============
+*/
+.body-main { 
+    margin: 0 20px;
+}
+
+.profile { 
+    padding: var(--section-spacing);
+}
+
+.left { 
+    display: inline-block;
+    width: 10%;
+    min-width: 60px;
+    max-width: 60px;
+    vertical-align: top; 
+    text-align: center;
+    height: 100%;
+}
+
+.right {
+    border-top: solid 1px #26bdeb;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.3em;
+    width: 88%;
+    vertical-align: top;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.line {
+    display: none; 
+}
+
+.text {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.skills {
+    font-weight: 500;
+    padding:  var(--section-spacing);
+}
+
+.employment {
+    padding:  var(--section-spacing);
+}
+
+
+.right-inner { 
+}
+
+.lrg-header {
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+}
+
+.mid-header {
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    padding: 5px 0; 
+}
+
+.sml-header {
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    color: #3b3d5d; 
+}
