@@ -7,7 +7,7 @@ Variables
 
 :root {
     --clr-primary-1: hsl(205, 86%, 17%);
-    --section-spacing: 10px 0;
+    --section-spacing:  5px 0;
 }
 
 
@@ -33,8 +33,10 @@ body {
 
  
 .frontend-main {
-    max-width: 1000px;
-    
+    /* min-width: 300px;
+    max-width: 1000px; */
+    width: 900px;
+    margin: 10px auto;
     padding: 20px 30px 80px 30px;
     border: solid 1px #26bdeb;
 }
@@ -52,8 +54,8 @@ Header
 }
 
 .img {
-    width: 130px;
-    height: 130px; 
+    width: 140px;
+    height: 140px; 
     border-radius: 50%;
     display: inline-block; 
     vertical-align: top;
@@ -68,14 +70,13 @@ Header
 .name-addy {
     display: inline-block;
     width: 70%;
-    vertical-align: top;
-    padding-top: 3px;
+    vertical-align: top; 
     padding-left: 20px;
 }
 
 .name-addy .left-icons {
     display: inline-block;
-    width: 30px;
+    width: 26px;
     text-align: center;
     padding: 0 5px;
     vertical-align: top; 
@@ -130,8 +131,34 @@ projects
     /* border: solid 1px red; */
 }
 
+.each-project a {
+    text-align: left; 
+    text-decoration: none; 
+    color: #26bdeb;
+}
 
+.each-project {
+    text-align: left;   
+}
 
+.each-project-left  {
+    padding: 5px;
+    width: 110px;
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.each-project-right {
+    padding: 5px;
+    width: 70%;
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+.web-link {
+    display: block;
+    margin: 5px; 
+}
 
 
 /* 
@@ -165,6 +192,7 @@ Body
     width: 88%;
     vertical-align: top;
     margin-top: 20px;
+    padding-top: 5px;
     height: 100%;
 }
 
@@ -201,7 +229,7 @@ Body
     font-weight: 500;
     font-size: 18px;
     display: block;
-    padding: 5px 0; 
+    /* padding: 5px 0;  */
 }
 
 .sml-header {
